@@ -12,6 +12,7 @@ plugins {
     id("org.gradle.experimental.jvm-ecosystem")
     id("org.gradle.experimental.kmp-ecosystem")
     id("org.gradle.experimental.swift-ecosystem")
+    id("org.gradle.experimental.cpp-ecosystem")
 }
 
 // Not currently supported by declarative model
@@ -34,3 +35,5 @@ include("testbed-java-application")
 include("testbed-java-library")
 include("testbed-swift-library")
 include("testbed-swift-application")
+include("testbed-cpp-library")
+include("testbed-cpp-application")
