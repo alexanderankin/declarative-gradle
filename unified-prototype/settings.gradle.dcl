@@ -21,8 +21,19 @@ dependencyResolutionManagement {
     }
 }
 
-// Not currently supported by declarative model
-//rootProject.name = "unified-prototype"
+rootProject.name = "unified-prototype"
+
+conventions {
+    androidLibrary {
+        jdkVersion = 11
+        compileSdk = 34
+    }
+
+    androidApplication {
+        jdkVersion = 11
+        compileSdk = 34
+    }
+}
 
 include("android-util")
 include("java-util")
